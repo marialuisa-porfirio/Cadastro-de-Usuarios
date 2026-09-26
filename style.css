@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f7fb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+
+.container {
+    width: 350px;
+
+    background-color: #ffffff;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+h1 {
+    text-align: center;
+
+    color: #506784;
+
+    margin-bottom: 10px;
+}
+
+
+p {
+    text-align: center;
+
+    color: #7b8794;
+
+    margin-bottom: 25px;
+}
+
+
+form {
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+label {
+    color: #506784;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+
+input {
+    padding: 12px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid #d6deea;
+
+    border-radius: 7px;
+
+    background-color: #fafcff;
+
+    font-size: 14px;
+}
+
+
+input:focus {
+    outline: none;
+
+    border-color: #9bb7d4;
+}
+
+
+button {
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    background-color: #a9c7e8;
+
+    color: #ffffff;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #8fb2d8;
+}
+
+.mensagem-erro {
+    color: #d66b6b;
+    font-size: 13px;
+    margin-top: -12px;
+    margin-bottom: 15px;
+}
+
+.campo-erro {
+    border-color: #d66b6b;
+}
